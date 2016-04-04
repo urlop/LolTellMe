@@ -1,0 +1,31 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ruby.loltellme.ui.fragments.TipsFragment"
+    android:orientation="vertical"
+    android:padding="@dimen/medium_margin">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/MText"
+        android:text="@string/t_tv_ally_tips"/>
+
+    <TextView
+        android:id="@+id/tv_ally_tips"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/small_margin"
+        android:textAppearance="@style/MText"
+        android:text="@string/t_tv_enemy_tips"/>
+
+    <TextView
+        android:id="@+id/tv_enemy_tips"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

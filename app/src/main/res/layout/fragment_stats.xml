@@ -1,0 +1,297 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ruby.loltellme.ui.fragments.TipsFragment"
+    android:orientation="vertical"
+    android:padding="@dimen/medium_margin">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/MText"
+        android:text="@string/s_info" />
+
+    <com.github.mikephil.charting.charts.RadarChart
+        android:id="@+id/chart1"
+        android:layout_width="match_parent"
+        android:layout_height="250dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/MText"
+        android:text="@string/s_all" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:baselineAligned="false">
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="@dimen/large_margin"
+                    android:layout_height="@dimen/large_margin"
+                    android:layout_gravity="center_vertical"
+                    android:src="@drawable/find"/>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="@string/s_all_health"/>
+                    <TextView
+                        android:id="@+id/tv_health"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="120 (+5.6 per level)"/>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="@dimen/large_margin"
+                    android:layout_height="@dimen/large_margin"
+                    android:layout_gravity="center_vertical"
+                    android:src="@drawable/find"/>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="@string/s_all_mana"/>
+                    <TextView
+                        android:id="@+id/tv_mana"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="120 (+5.6 per level)"/>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="@dimen/large_margin"
+                    android:layout_height="@dimen/large_margin"
+                    android:layout_gravity="center_vertical"
+                    android:src="@drawable/find"/>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="@string/s_all_attack_damage"/>
+                    <TextView
+                        android:id="@+id/tv_attack_damage"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="120 (+5.6 per level)"/>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="@dimen/large_margin"
+                    android:layout_height="@dimen/large_margin"
+                    android:layout_gravity="center_vertical"
+                    android:src="@drawable/find"/>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="@string/s_all_attack_speed"/>
+                    <TextView
+                        android:id="@+id/tv_attack_speed"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="120 (+5.6 per level)"/>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="@dimen/large_margin"
+                    android:layout_height="@dimen/large_margin"
+                    android:layout_gravity="center_vertical"
+                    android:src="@drawable/find"/>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="@string/s_all_attack_range"/>
+                    <TextView
+                        android:id="@+id/tv_attack_range"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="120 (+5.6 per level)"/>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="@dimen/large_margin"
+                    android:layout_height="@dimen/large_margin"
+                    android:layout_gravity="center_vertical"
+                    android:src="@drawable/find"/>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="@string/s_all_health_regen"/>
+                    <TextView
+                        android:id="@+id/tv_health_regen"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="120 (+5.6 per level)"/>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="@dimen/large_margin"
+                    android:layout_height="@dimen/large_margin"
+                    android:layout_gravity="center_vertical"
+                    android:src="@drawable/find"/>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="@string/s_all_mana_regen"/>
+                    <TextView
+                        android:id="@+id/tv_mana_regen"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="120 (+5.6 per level)"/>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="@dimen/large_margin"
+                    android:layout_height="@dimen/large_margin"
+                    android:layout_gravity="center_vertical"
+                    android:src="@drawable/find"/>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="@string/s_all_armor"/>
+                    <TextView
+                        android:id="@+id/tv_armor"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="120 (+5.6 per level)"/>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="@dimen/large_margin"
+                    android:layout_height="@dimen/large_margin"
+                    android:layout_gravity="center_vertical"
+                    android:src="@drawable/find"/>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="@string/s_all_magic_resist"/>
+                    <TextView
+                        android:id="@+id/tv_magic_resist"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="120 (+5.6 per level)"/>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="@dimen/large_margin"
+                    android:layout_height="@dimen/large_margin"
+                    android:layout_gravity="center_vertical"
+                    android:src="@drawable/find"/>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="@string/s_all_movement"/>
+                    <TextView
+                        android:id="@+id/tv_movement"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="120 (+5.6 per level)"/>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>

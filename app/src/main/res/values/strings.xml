@@ -1,0 +1,91 @@
+<resources>
+    <string name="action_settings">Settings</string>
+
+    <string name="interstitial_ad_sample">Interstitial Ad Sample</string>
+    <string name="start_level">Level 1</string>
+    <string name="next_level">Next Level</string>
+    <!-- -
+        This is an ad unit ID for an interstitial test ad. Replace with your own interstitial ad unit id.
+        For more information, see https://support.google.com/admob/answer/3052638
+    <!- -->
+    <string name="interstitial_ad_unit_id">ca-app-pub-3940256099942544/1033173712</string>
+    <string name="banner_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>
+
+    <string-array name="locales">
+        <item>en_US</item>
+        <item>es_ES</item>
+    </string-array>
+
+    <string-array name="languages">
+        <item>English</item>
+        <item>Spanish</item>
+    </string-array>
+
+
+    <!-- Champion Detail -->
+    <string name="title_activity_champions">Champions</string>
+    <string name="menu_search">Search… (Ex: Assassin, Shaco)</string>
+    <string name="title_activity_champion_detail">Champion Detail</string>
+
+    <string name="special_description_free_to_play">This champion is FREE TO PLAY</string>
+    <string name="special_description_disabled">This champion is DISABLED</string>
+
+    <string name="title_section1">General</string>
+    <string name="title_section2">Stats</string>
+    <string name="title_section3">Tips</string>
+    <string name="title_section4">Skins</string>
+
+    <!-- Tips -->
+    <string name="t_tv_ally_tips">Ally Tips</string>
+    <string name="t_tv_enemy_tips">Enemy Tips</string>
+
+    <!-- Stats -->
+    <string name="s_info">Basic Info</string>
+    <string name="s_all">All</string>
+    <string name="s_stat_header">%1$s:</string>
+    <string name="s_stat_format">%1$s (+%2$.2f per level)</string>
+    <string name="s_stat_format_percent">%1$.2f (+%%%2$1.2f per level)</string>
+    <string name="s_all_health">Health:</string>
+    <string name="s_all_mana">Mana:</string>
+    <string name="s_all_attack_damage">Attack Damage:</string>
+    <string name="s_all_attack_speed">Attack Speed:</string>
+    <string name="s_all_attack_range">Attack Range:</string>
+    <string name="s_all_critical">Critical:</string>
+    <string name="s_all_health_regen">Health Regen:</string>
+    <string name="s_all_mana_regen">Mana Regen:</string>
+    <string name="s_all_armor">Armor:</string>
+    <string name="s_all_magic_resist">Magic Resist:</string>
+    <string name="s_all_movement">Movement:</string>
+
+    <string-array name="stats_parties">
+        <item>Defense</item>
+        <item>Magic</item>
+        <item>Attack</item>
+        <item>Difficulty</item>
+        <item>Speed</item>
+    </string-array>
+
+    <!-- Splash / Loader -->
+    <string name="sp_loading">Loading …</string>
+    <string name="request_error_internet">Connection Failed. Please check your internet connection</string>
+
+    <!-- Main Activity -->
+    <string name="title_activity_main">LolTellMe</string>
+    <string name="ma_all_champions">ALL CHAMPIONS</string>
+    <string name="ma_free_to_play">Free To Play</string>
+    <string name="ma_disabled">Disabled</string>
+
+    <!-- Settings -->
+    <string name="title_activity_settings">Settings</string>
+    <string name="st_language_message">Your download language changed to: %1$s</string>
+    <string name="st_cannot_refresh">You cannot refresh again in %1$d minutes %2$d seconds due to security reasons.</string>
+    <string name="st_default_language">Default Language</string>
+    <string name="st_default_language_description">By default, we obtain the contain based on your phone\'s laguage settings. If you want to change this, you can do it here.</string>
+    <string name="st_refresh">Refresh</string>
+    <string name="st_refresh_description">Lol data is updated every week in order to be updated with the current changes in the game. If you want to make sure that you have the most up-to-date data, you can click this button.</string>
+    <string name="st_refresh_button">Refresh Data</string>
+    <string name="st_rights">Rights</string>
+    <string name="st_rights_description">LolTellMe isn’t endorsed by Riot Games and doesn’t reflect the views or opinions of Riot Games or anyone officially involved in producing or managing League of Legends. League of Legends and Riot Games are trademarks or registered trademarks of Riot Games, Inc. League of Legends © Riot Games, Inc.</string>
+
+
+</resources>

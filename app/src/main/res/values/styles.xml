@@ -1,0 +1,20 @@
+<resources>
+
+    <style name="SText" parent="@android:style/TextAppearance.Small">
+        <item name="android:textColor">@color/text_secondary</item>
+    </style>
+
+    <style name="MText" parent="@android:style/TextAppearance.Medium">
+        <item name="android:textColor">@color/text_secondary</item>
+    </style>
+
+    <style name="LText" parent="@android:style/TextAppearance.Large">
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="SpinnerItemStyle" parent="@android:style/Widget.Holo.DropDownItem.Spinner">
+        <item name="android:textColor">@color/text_secondary</item>
+    </style>
+
+</resources>

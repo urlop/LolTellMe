@@ -1,0 +1,46 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ruby.loltellme.ui.fragments.GeneralFragment"
+    android:orientation="vertical"
+    android:padding="@dimen/medium_margin"
+    android:background="@android:color/holo_green_light">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/MText"
+        android:text="Roles" />
+
+    <TextView
+        android:id="@+id/tv_role"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/general_spell_height"
+        android:text="Assasin"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/small_margin"
+        android:textAppearance="@style/MText"
+        android:text="Spells" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv_list_spells"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/general_spell_height"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/small_margin"
+        android:textAppearance="@style/MText"
+        android:text="Recommended Items" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv_list_items"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/general_spell_height"/>
+</LinearLayout>
