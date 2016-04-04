@@ -18,7 +18,7 @@ import timber.log.Timber;
 /*Based on: http://www.androidhive.info/2012/07/android-gps-location-manager-tutorial/*/
 public class GPSTracker extends Service implements LocationListener {
 
-    private final Context mContext;
+    private Context mContext;
 
     // flag for GPS status
     boolean isGPSEnabled = false;
