@@ -3,6 +3,11 @@ Final Project for Udacity Course.
 
 An application to get champions' information.
 
+## To try it out
+Look for the apk inside the repository:
+
+\app\apk-release.apk
+
 ## To build
 Create an account from https://developer.riotgames.com/login/auth.
 
