@@ -80,12 +80,15 @@
     <string name="st_language_message">Your download language changed to: %1$s</string>
     <string name="st_cannot_refresh">You cannot refresh again in %1$d minutes %2$d seconds due to security reasons.</string>
     <string name="st_default_language">Default Language</string>
-    <string name="st_default_language_description">By default, we obtain the contain based on your phone\'s laguage settings. If you want to change this, you can do it here.</string>
+    <string name="st_default_language_description">By default, we obtain the contain based on your phone\'s language settings. If you want to change this, you can do it here.</string>
     <string name="st_refresh">Refresh</string>
     <string name="st_refresh_description">Lol data is updated every week in order to be updated with the current changes in the game. If you want to make sure that you have the most up-to-date data, you can click this button.</string>
     <string name="st_refresh_button">Refresh Data</string>
     <string name="st_rights">Rights</string>
     <string name="st_rights_description">LolTellMe isn’t endorsed by Riot Games and doesn’t reflect the views or opinions of Riot Games or anyone officially involved in producing or managing League of Legends. League of Legends and Riot Games are trademarks or registered trademarks of Riot Games, Inc. League of Legends © Riot Games, Inc.</string>
 
+    <!-- *Contents Descriptions -->
+    <string name="cd_go_all_champions">Go to all champions view</string>
+    <string name="cd_refresh">Reload data from web service</string>
 
 </resources>

@@ -20,13 +20,14 @@
 
             <Button
                 android:layout_width="match_parent"
-                android:layout_height="200dp"
+                android:layout_height="@dimen/toolbar_parallax_height"
                 android:layout_margin="@dimen/small_margin"
                 android:id="@+id/bt_all_champions"
                 android:background="@drawable/button_all_champions"
                 android:text="@string/ma_all_champions"
                 android:gravity="bottom|center_horizontal"
                 android:textAppearance="@style/LText"
+                android:contentDescription="@string/cd_go_all_champions"
                 android:enabled="true" />
 
             <TextView

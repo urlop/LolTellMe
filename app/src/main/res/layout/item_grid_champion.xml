@@ -9,8 +9,8 @@
     android:background="?attr/selectableItemBackground" >
 
     <ImageView
-        android:layout_width="50dp"
-        android:layout_height="50dp"
+        android:layout_width="@dimen/cd_iv_size"
+        android:layout_height="@dimen/cd_iv_size"
         android:id="@+id/iv_image" />
 
     <TextView

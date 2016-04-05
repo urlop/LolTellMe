@@ -50,7 +50,8 @@
             android:padding="@dimen/small_margin"
             android:text="@string/st_refresh_button"
             android:id="@+id/bt_refresh"
-            android:layout_gravity="center_horizontal" />
+            android:layout_gravity="center_horizontal"
+            android:contentDescription="@string/cd_refresh"/>
 
         <TextView
             android:layout_width="wrap_content"
